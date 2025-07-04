@@ -1,0 +1,32 @@
+{
+  "name": "SNOW-MD",
+  "version": "1.0.0",
+  "description": "WhatsApp Multi-Device Bot SNOW-MD",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "pm2 start index.js --deep-monitoring --attach --name SNOW-MD",
+    "stop": "pm2 stop SNOW-MD",
+    "restart": "pm2 restart SNOW-MD"
+  },
+  "keywords": [
+    "snow-md",
+    "whatsapp-bot",
+    "whatsapp md bot"
+  ],
+  "author": "JON SNOW",
+  "license": "ISC",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.0",
+    "axios": "^1.6.8",
+    "chalk": "^5.3.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "fs-extra": "^11.2.0",
+    "megajs": "^1.1.0",
+    "node-cache": "^5.1.2",
+    "pino": "^8.20.0",
+    "pino-pretty": "^10.3.0",
+    "pm2": "^5.4.0"
+  }
+}
