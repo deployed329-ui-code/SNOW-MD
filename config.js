@@ -1,6 +1,6 @@
 export default {
   MODE: 'public', // public or private
-  SESSION_ID: process.env.SESSION_ID || 'please add your session id here',
+  SESSION_ID: process.env.SESSION_ID || 'SNOW~MD~jZMinLTS#YkFTfKdugRqe_7EWUNodwRrWWnxrlhyhMdHgoCIbq50',
   OWNER_NUMBER: '50949100359',
   OWNER_NAME: 'JON SNOW',
   CHANNEL_URL: 'https://whatsapp.com/channel/0029VbB2p44KWEKt0C6sx225',
