@@ -1,0 +1,14 @@
+{
+  "name": "SNOW-MD",
+  "description": "SNOW-MD WhatsApp Bot",
+  "env": {
+    "SESSION_ID": {
+      "description": "MEGA session ID",
+      "required": true
+    },
+    "PORT": {
+      "description": "Express server port",
+      "required": false
+    }
+  }
+}
