@@ -1,5 +1,5 @@
 {
-  "antiPromote": false,
+  "antiPromote": true,
   "antiDemote": true,
   "antiKick": true
 }
